@@ -1,16 +1,85 @@
-## Hi there 👋
+# Алексей Востриков
 
-<!--
-**lexachanskii/lexachanskii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Студент Санкт-Петербургского политехнического университета Петра Великого.  
+Основное направление интересов — backend-разработка.
 
-Here are some ideas to get you started:
+Интересуюсь разработкой REST API, работой с базами данных, интеграцией внешних сервисов, геоданными и серверной логикой веб-приложений.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Технологии
+
+- Go
+- Java
+- Python
+- TypeScript / Node.js
+- REST API
+- HTTP / JSON
+- PostgreSQL
+- Docker
+- Git
+- Linux
+
+## Проекты
+
+### ISS Observation Tracker
+
+Java-приложение для агрегации данных из нескольких внешних REST API.
+
+Пользователь задаёт географические координаты, после чего приложение получает данные о:
+- пролётах МКС
+- погодных условиях
+- астрономических условиях
+
+Полученные данные объединяются и используются для оценки условий наблюдения МКС.
+
+В проекте реализованы:
+- отдельные клиенты для внешних API
+- обработка JSON-ответов
+- DTO-модели
+- агрегация данных из нескольких источников
+- работа с географическими координатами и временем
+- модульная архитектура для подключения новых источников данных
+
+**Стек:** Java, Gradle, OkHttp, Jackson, REST API, JSON
+
+[Репозиторий](https://github.com/lexachanskii/ISS_Tracker)
+
+---
+
+### VK Practice Quiz
+
+Веб-приложение для создания и проведения интерактивных квизов, разработанное в рамках VK Education Practice.
+
+Основная часть моей работы была связана с backend-разработкой.
+
+Реализованы:
+- REST API
+- регистрация и авторизация пользователей
+- JWT-аутентификация
+- создание и редактирование квизов
+- работа с вопросами
+- игровые сессии
+- отправка и обработка ответов
+- подсчёт результатов
+- leaderboard
+- взаимодействие в реальном времени через Socket.IO
+
+**Стек:** TypeScript, Node.js, Express, PostgreSQL, Prisma, JWT, Socket.IO, Next.js
+
+[Репозиторий](https://github.com/lexachanskii/vk_practice_quiz)
+
+## Образование и сертификаты
+
+- [VK Education Practice](./certificates/Сертификат_VK_Education_Practice_Политех.pdf)
+- [VK Education — Алгоритмы и структуры данных](./certificates/Сертификат_Алгоритмы_и_структуры_данных.pdf)
+- [VK Education — Веб-приложение для проведения интерактивных опросов](./certificates/Сертификат_Веб_приложение_для_проведения_интерактивных_опросов.pdf)
+- [YADRO–Политех — Введение в язык программирования Go](./certificates/yadro_lets_go_programming.jpeg)
+
+## Интересы
+
+- backend-разработка
+- проектирование REST API
+- базы данных
+- интеграция внешних API
+- геоданные и картографические сервисы
+- Docker
+- Linux
